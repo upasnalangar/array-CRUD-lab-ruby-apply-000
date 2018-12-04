@@ -3,13 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
+[1,2,3,4]
+end
+
+def add_element_to_end_of_array(array,element)
 
 end
 
-def add_element_to_end_of_array
-  end
-
-def add_element_to_start_of_array(array, element)
+def add_element_to_start_of_array(var[1,2,3,4], 0)
+var.unshift(5)
 end
 
 def remove_element_from_end_of_array(array)
@@ -28,6 +30,6 @@ def retrieve_first_element_from_array(array)
   
 end
 
-def retrieve_last_element_from_array(array[])
+def retrieve_last_element_from_array(array)
   
 end
